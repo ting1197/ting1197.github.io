@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Name Card</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100dvh;
+            width: 100dvw;
+            background-image: url('background.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin: 0;
+        }
+        .card {
+            background-color: #ffffff8a;
+            backdrop-filter: saturate(180%) blur(20px);
+            width: 300px;
+            border: none;
+            border-radius: 30px;
+            padding: 25px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        }
+        .img {
+            width: 100px;
+            height: 100px;
+            border-radius: 10px;
+        }
+        .name {
+            font-weight: bold;
+        }
+        .job {
+            font-style: italic;
+        }        
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src="photo.jpg" class="img">
+        <div class="name">Ting Jia</div>
+        <div class="job">Web Developer</div>
+        <div class="contact">
+            Email: b11115027@mail.ntust.edu.tw<br/>
+            Github: <a href="https://github.com/">eric1197</a>
+        </div>
+    </div>
+</body>
+</html>
